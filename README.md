@@ -8,26 +8,37 @@ This repository contains the LinkedIn Jobs Machine Learning Dataset, a comprehen
 
 ## Dataset Details
 
-- **Size:** [Provide the size of the dataset, e.g., 1.5 GB]
-- **Columns:** [Mention key columns and their meanings]
-- **Source:** [Specify where the dataset was obtained, e.g., Kaggle]
+- **Size:** 40Mo
+- **Columns:**
+- Co_Nm / Company Name, dType Object
+- Co_Pg_Lstd / Company Page Listed, dType Bool
+- Emp_Cnt / Company Employee Count, dType int64
+- Flw_Cnt / Company Follower Count, dType int64
+- Job_Ttl / Job Title, dType Object
+- Job_Desc / Job Description, dtype Object
+- Is_Supvsr / Is Post a Supervisor Position (Calculated), dType Bool
+- max_sal / Maximum Salary, dtype Float64
+- med_sal / Median Salary, dtype Float64
+- min_sal / Minimum Salary, dtype Float64
+- py_prd / Pay Period, dtype Category {Not Listed, YEARLY, HOURLY, MONTHLY, Unpaid, WEEKLY, ONCE}
+- py_lstd / Pay Listed (Calculated), dtype Bool 
+- wrk_typ / Work Type, dtype Category {Full-time, Contract, Part-time, Temporary, Internship, Other, Volunteer}
+- loc / Job Location, dtype Object
+- st_code / Job State Code (Calculated), dtype Object
+- is_remote / Is Job Remote (Calculated), dtype Bool
+- views / Number of Posting Views, dtype int64
+- app_typ / Application Type, dtype Category {Offsite Apply, SimpleOnSiteApply, ComplexOnSiteApply}
+- app_is_off / Is Application Offsite (Calculated), dtype Bool
+- xp_lvl / Experience Level, dtype Category {Mid-Senior level, Not Listed, Entry level, Associate, Director, Internship, Executive}
+- domain / Posting Domain, dtype Object
+- has_post_domain / Has Posting Domain (Calculated), dtype Bool
+- is_sponsored / Is Sponsored, dtype Bool
+- base_comp / Has Base Compensation, dtype Bool
+- **Source:** Kaggle
 
 ## Project Overview
 
 In this project, we conducted a detailed analysis of the LinkedIn Jobs dataset, aiming to extract insights into various aspects of job postings. The analysis covers data cleaning, salary exploration, and marketing insights, providing a comprehensive view of the job market landscape.
-
-## Key Findings
-
-- **Top Job Titles:** [Highlight top job titles with the highest average salaries]
-- **Top Companies:** [Identify the companies with the highest number of job postings]
-- **Salary Distribution:** [Discuss the distribution of salaries and explore specific insights]
-- **Marketing Trends:** [Explore marketing insights such as views for sponsored vs. non-sponsored posts]
-
-## Usage
-
-- **Exploratory Data Analysis (EDA):** [Provide details on how to use the code for EDA]
-- **Visualization:** [Include examples of visualizations and how to reproduce them]
-- **Notebooks:** [List and briefly describe important notebooks in the repository]
 
 ## Getting Started
 
