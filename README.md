@@ -41,10 +41,6 @@ To get started with this dataset, follow these steps:
 
 Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
 
-## License
-
-This dataset is available under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). Please review the license for more details.
-
 ---
 
 **Happy Exploring!**
